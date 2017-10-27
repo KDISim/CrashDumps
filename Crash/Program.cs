@@ -1,15 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Crash
+﻿namespace Crash
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            var crash = new OffWeGo();
+            crash.Bang();
+
+        }
+    }
+
+    class OffWeGo
+    {
+        public void Bang()
+        {
+            Bang();
         }
     }
 }
