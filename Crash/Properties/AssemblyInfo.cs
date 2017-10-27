@@ -1,16 +1,15 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Crash")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Program which just crashes, used to check that userdumps works")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("KDISim")]
 [assembly: AssemblyProduct("Crash")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCopyright("Copyright ©  2017  Terje Sandstrom, Kim Vedvik")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
